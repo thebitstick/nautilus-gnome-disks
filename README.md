@@ -1,5 +1,8 @@
 # nautilus-gnome-disks
-Allows you to restore/write a disk image to storage devices using GNOME Disks from Nautilus
+Allows you to restore/write/flash a disk image to storage devices using GNOME Disks from Nautilus
+
+## Usage
+Right-click on any `.iso` or `.img` disk image and click "Flash to Storage Media". This will open GNOME Disks to restore/write/flash your image to a storage device.
 
 ## Installation
 ### AUR

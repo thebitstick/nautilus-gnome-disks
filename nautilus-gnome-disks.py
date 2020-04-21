@@ -1,7 +1,7 @@
 from gi.repository import Nautilus, GObject, Gio
 import subprocess
 
-SUPPORTED_FORMATS = 'application/x-cd-image', 'application/x-raw-disk-image'
+SUPPORTED_FORMATS = 'application/x-cd-image', 'application/x-raw-disk-image', 'application/octet-stream'
 
 class GNOMEDisksExtension(GObject.GObject, Nautilus.MenuProvider):
     def menu_activate_cb(self, menu, file):

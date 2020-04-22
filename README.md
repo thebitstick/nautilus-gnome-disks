@@ -6,14 +6,14 @@ Right-click on any `.iso` or `.img` disk image and click "Flash to Storage Media
 
 ## Installation
 ### AUR
-`yay -S nautilus-gnome-disks-git` for [nautilus-gnome-disks-git](https://aur.archlinux.org/packages/nautilus-gnome-disks-git)
+`$ yay -S nautilus-gnome-disks-git` for [nautilus-gnome-disks-git](https://aur.archlinux.org/packages/nautilus-gnome-disks-git)
 ### PKGBUILD
-`makepkg -sic`
+`$ makepkg -sic`
 ### Other
-`install --mode=644 nautilus-gnome-disks.py /usr/share/nautilus-python/extensions/`
+`$ install --mode=644 nautilus-gnome-disks.py /usr/share/nautilus-python/extensions/`
 
 OR
 
-`mkdir -p ~/.local/share/nautilus-python/extensions/`
+`$ mkdir -p ~/.local/share/nautilus-python/extensions/`
 
-`cp nautilus-gnome-disks.py ~/.local/share/nautilus-python/extensions/`
+`$ cp nautilus-gnome-disks.py ~/.local/share/nautilus-python/extensions/`

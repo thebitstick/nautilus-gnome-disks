@@ -6,6 +6,10 @@ Right-click on any `.iso` or `.img` disk image and click "Flash to Storage Media
 
 ## Installation
 ### AUR
+`$ yay -S nautilus-gnome-disks` for [nautilus-gnome-disks](https://aur.archlinux.org/packages/nautilus-gnome-disks)
+
+OR
+
 `$ yay -S nautilus-gnome-disks-git` for [nautilus-gnome-disks-git](https://aur.archlinux.org/packages/nautilus-gnome-disks-git)
 ### PKGBUILD
 `$ makepkg -sic`
